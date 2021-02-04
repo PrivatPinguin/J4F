@@ -117,7 +117,7 @@ while($True)
         Write-Host "`n`nReminder:: Press " -NoNewline
         Write-Host "[ Strg + C ]" -ForegroundColor red -NoNewline
         Write-Host " to exit loop."
-        Start-Sleep -Milliseconds $n
+        Start-Sleep -Milliseconds $mlt
     }
     #reverse sequence
     foreach($cube in $cubeListReverse)
@@ -128,6 +128,6 @@ while($True)
         Write-Host "`n`nReminder:: Press " -NoNewline
         Write-Host "[ Strg + C ]" -ForegroundColor red -NoNewline
         Write-Host " to exit loop."
-        Start-Sleep -Milliseconds $n
+        Start-Sleep -Milliseconds $mlt
     }
 }
